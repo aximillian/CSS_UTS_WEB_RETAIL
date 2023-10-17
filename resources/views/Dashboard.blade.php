@@ -7,7 +7,7 @@
   <title>Document</title>
 
   <!-- Link -->
-  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
@@ -22,9 +22,11 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"> KeTheBooks</a>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/KETHEBOOK RB.png" width="240" height="80" alt="">
+      </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -80,142 +82,187 @@
     </nav>
 
 
-    <footer>
-      <div class="footer-line"></div>
-      <div class="footer-warpper">
-        <section class="footer-top">
-          <div class="footer-headline">
-            <h2>Subscribe</h2>
-            <p>
-              Stay up to date with our books 
-            </p>
+
+    <section class="subscription-section">
+      <div class="subscription-wrapper">
+          <div class="subscription__description">
+              <h2>
+                  Join 10k+ other readers!
+              </h2>
+              <p>
+                  Stay up to date with our news and articles
+              </p>
           </div>
-
-          <div class="footer-subscribe">
-            <input type="email" spellcheck="false" placeholder="Your Email">
-            <button>
-              Sign Up
-            </button>
-          </div>
-        </section>
-
-        <div class="footer-columns">
-          <section class="footer-logo">
-            <h2>
-              <svg
-                width="1103" height="996" viewBox="0 0  1103 996"
-                fill="none" xmlns="http://www.w3.org/2000/svg"
-                >
-              
-              </svg>
-            </h2>
-          </section>
-
-          <section>
-            <h3> Information</h3>
-            <ul>
-              <li>
-                <a href="#" title="About Us"> About Us</a>
-              </li>
-              <li>
-                <a href="#" title="Shipping & Delivery"> Shipping & Delivery</a>
-              </li>
-              <li>
-                <a href="#" title="Terms & Conditions"> Terms & Conditions</a>
-              </li>
-              <li>
-                <a href="#" title="Write Customer Review"> Write Customer Review</a>
-              </li>
-            </ul>
-          </section>
-
-          <section>
-            <h3> Costomer Service</h3>
-            <ul>
-              <li>
-                <a href="#" title="Contact Us"> Contact Us</a>
-              </li>
-              <li>
-                <a href="#" title="Returns"> Returns</a>
-              </li>
-              <li>
-                <a href="#" title="How to Register"> How to Register</a>
-              </li>
-              <li>
-                <a href="#" title="How to Shop"> How to Shop</a>
-              </li>
-              <li>
-                <a href="#" title="How to Ship & Pay"> How to Ship & Pay</a>
-              </li>
-            </ul>
-          </section>
-
-          <section>
-            <h3> My Account</h3>
-            <ul>
-              <li>
-                <a href="#" title="Account Details"> Account Details</a>
-              </li>
-              <li>
-                <a href="#" title="Order History"> Order History</a>
-              </li>
-              <li>
-                <a href="#" title="Wish List"> Wish List</a>
-              </li>
-              <li>
-                <a href="#" title="Newsletter"> Newsletter</a>
-              </li>
-            </ul>
-          </section>
-
-          <section>
-            <h3> Contact U</h3>
-            <ul>
-              <li>
-                <a href="#" title="Contact Us"> Contact Us</a>
-              </li>
-              <li>
-                <a href="#" title="Returns"> Returns</a>
-              </li>
-              <li>
-                <a href="#" title="How to Register"> How to Register</a>
-              </li>
-              <li>
-                <a href="#" title="How to Shop"> How to Shop</a>
-              </li>
-              <li>
-                <a href="#" title="How to Ship & Pay"> How to Ship & Pay</a>
-              </li>
-            </ul>
-          </section>
-
-        </div>
-
-        <div class="footer-bottom">
-          <div class='social-links'>
-            <ul>
-              <li>
-                <a href="#" title="Instagram">
-                  <img src="https://cdn.iconscout.com/icon/free/png-512/free-instagram-1464521-1239436.png?f=webp&w=256" alt="">
-                </a>
-              </li>
-
-            </ul>
-          </div>
-          <small>
-            KeTheBooks Ltd. <span id="year"></span>,
-            All rights reserved
-          </small>
-        </div>
+          <form class="subscribe-form">
+              <input type="email" spellcheck="false" placeholder="Your Email">
+              <button type="submit">
+                Subscribe
+              </button>
+          </form>
       </div>
-    </footer>
+  </section>
 
 
-<style>
+    <footer>
+      <div class="footer-wrapper">
+
+          <div class="social-wrapper">
+              <div class='social-links'>
+                  <ul>
+                      <li>
+                          <a href="#" title="Instagram">
+                              <img src="icon/instagram.png" alt='Instagram'>                       
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#" title="Linkedin">
+                              <img src="icon/linkedin.png" alt='Linkedin'>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#" title="X">
+                              <img src="icon/x.png" alt='X'>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#" title="Youtube">
+                              <img src="icon/youtube.png" alt='YouTube'>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#" title="GitHub">
+                              <img src="icon/github.png" alt='GitHub'>
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+        
+          <div class="footer-columns">
+              <div class="footer-links">
+                  <div class="footer-logo">
+                      <svg width="1103" height="996" viewBox="0 0 1103 996" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M410.988 255.56L0 995.337H189.802L505.141 427.427L410.988 255.56ZM1102.94 995.337L647.119 170.373L551.471 0L457.317 170.373L551.471 340.746L711.79 629.718H498.683L405.461 786.972H799.034L914.634 995.337H1102.94Z" fill="#FAFBFC"/>
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M410.988 255.56L0 995.337H189.802L505.141 427.427L410.988 255.56ZM1102.94 995.337L647.119 170.373L551.471 0L457.317 170.373L551.471 340.746L711.79 629.718H498.683L405.461 786.972H799.034L914.634 995.337H1102.94Z" fill="#FAFBFC"/>
+                      </svg>
+                  </div>
+                  <section>
+                      <h3>Product</h3>
+                      <ul>
+                          <li>
+                              <a href="#" title="API">API</a>
+                          </li>
+                          <li>
+                              <a href="#" title="Pricing">Pricing</a>
+                          </li>
+                          <li>
+                              <a href="#" title="Documentation">Documentation</a>
+                          </li>
+                          <li>
+                              <a href="#" title="Release Notes">Release Notes</a>
+                          </li>
+                          <li>
+                              <a href="#" title="Status">Status</a>
+                          </li>
+                      </ul>
+                  </section>
+
+                  <section>
+                      <h3>Quick Links</h3>
+                      <ul>
+                          <li>
+                              <a href="#" title="Home">Home</a>
+                          </li>
+                          <li>
+                              <a href="#" title="Featured">Featured</a>
+                          </li>
+                          <li>
+                              <a href="#" title="Arrivals">Arrivals</a>
+                          </li>
+                          <li>
+                              <a href="#" title="Reviews">Reviews</a>
+                          </li>
+                          <li>
+                              <a href="#" title="Blogs">Blogs</a>
+                          </li>
+                      </ul>
+                  </section>
+
+                  <section>
+                      <h3>Extra Links</h3>
+                      <ul>
+                          <li>
+                              <a href="#" title="Account Info">Account Info</a>
+                          </li>
+                          <li>
+                              <a href="#" title="Ordered Items">Ordered Items</a>
+                          </li>
+                          <li>
+                              <a href="#" title="Privacy Policy">Privacy Police</a>
+                          </li>
+                          <li>
+                              <a href="#" title="Press">Payment Method</a>
+                          </li>
+                          <li>
+                              <a href="#" title="Contact">Our Serivces</a>
+                          </li>
+                      </ul>
+                  </section>
+
+                  <section>
+                      <h3>Contact Info</h3>
+                      <ul>
+                          <li>
+                              <a href="#"> <i class="fas fa-identity"></i>
+                                +210711010
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                +210711046
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                +210711453
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                <i class="fas fa-envelope"></i> Kethebook@Gmail.com
+                              </a>
+                          </li>
+                      </ul>
+                  </section>
+              </div>
+            
+          </div>
+          <div class="footer-bottom">
+              <div class="footer-description">
+                  <h3>Midterm Exam Website Project</h3>
+                  <p>Development and design by Retail_4_B group<p>
+              </div>
+              <small>© KETHEBOOK Ltd. <span id="year"></span>, All rights reserved</small>
+          </div>
+      </div>
+  </footer>
+
+
+
+  <style>
+    :root {
+  --primary: #272829;
+  --text-color: white;
+  --white: white;
+  --text-gray: #FEFEFE;
+  --text-heading-gray: #61677A;
+  --background: #D8D9DA;
+  --border: #FFF6E0;
+}
+
 .navbar-brand, .navbar-nav .nav-link {
   font-family: 'Roboto', sans-serif;
 }
-
 
 .navbar-nav .nav-link {
   font-weight: bold;
@@ -223,7 +270,7 @@
 }
 
 .navbar {
-  background-color: #605DFF; 
+  background-color: var(--primary); 
 }
 
 .navbar-toggler-icon {
@@ -237,6 +284,7 @@
 .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
   display: block;
 }
+
 
 .search{
   position: relative;
@@ -279,241 +327,299 @@
   background-position: 10px 50%;
 }
 
-
-:root{
-  --footer-background: #884a39;
-  --text-color: #FAFBFC;
-  --text-gray: #FEFEFE;
-  --text-heading-gray: #F4F5F6;
-  --text-primary: #FAFBFC;
-  --button-color: #C38154;
-  --button-border: #6B707C;
+/*? footer reset */
+*, *::after, *::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-*, *::after, *::before{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
-footer{
-  position: absolute;
-  bottom: 0px;
-  background-color: var(--footer-background);
-  min-width: 300px;
-  width: 100vw;
-  bottom: 0px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.footer-warpper{
-  display: flex;
-  background: var(--footer-background);
-  flex-direction: column;
-  max-width: 1320px;
-  padding: 16px;
-}
-
-.footer-top{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: start;
-  align-items: start;
-  padding: 16px 0px;
-  justify-content: space-between;
-}
-
-.footer-line{
-  display: block;
-  width: 100%;
-  height: 8px;
-}
-
-.footer-subscribe{
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-
-.footer-subscribe > input {
-  border: 1px solid var(--text-color);
-  color: var(--text-color);
-  outline: none;
-  min-height: 36px;
-  background-color: var(--footer-background);
-  font-size: 1.2rem;
-  flex: 1 0 120 px;
-  padding: 8px 12px;
-  border-radius: 8px;
-}
-
-.footer-subscribe > input::placeholder{
-  color: var(--text-color);
-}
-
-.footer-subscribe > button{
-  cursor: pointer;
-  background-color: var(--button-color);
-  border-radius: 8px;
-  color: white;
-  font-size: 1,25rem;
-  min-width: 120px;
-  min-height: 36px;
-  flex: 1 0 80px;
-  white-space: nowrap;
-  padding: 8px 12px;
-  border: 0px;
-  outline: none;
-  border: 1px solid var(--text-color);
-}
-
-.footer-columns{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: start;
-  align-items: start;
-  flex: 2 0 140px;
-  width: 100%;
-  gap: 16px;
-  padding: 24px 8px 16px 8px;
-  margin: 0 auto;
-}
-
-.footer-columns ul{
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer-columns ul a{
-  color: var(--text-color);
-  text-align: none;
-}
-
-.footer-columns ul a:hover{
-  text-decoration: underline;
-}
-
-.footer-columns ul li{
-  margin-bottom: 16px;
-}
-
-.footer-columns h3{
-  color: var(--text-primary);
-  margin-top: 0;
-  margin-bottom: 25px;
-  font-size: 1.125rem;
-}
-
-.footer-centering{
-  margin: 0 auto;
-}
-
-.footer-columns > section{
-  min-width: 150pz;
-}
-
-.footer-logo{
-  display: flex;
-  flex-direction: row;
-  align-items: start;
-  justify-content: start;
-  gap: 16px;
-  color: var(--text-color);
-  margin-bottom: 60px;
-}
-
-.footer-logo svg{
-  stroke: var(--text-color);
-  stroke-width: 8px;
-  width: 50px;
-  height: 50px;
-}
-
-.footer-bottom{
-  text-align: center;
-  margin-top: 48px;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  gap: 16px;
-  padding: 16px 0px;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  color: var(--text-gray);
-}
-
-.footer-bottom > small{
-  font-size: 16px;
-  margin: 0 4px;
-}
-
-.footer-headline > h2 {
-  margin: 0px;
-  color: var(--text-primary);
-}
-
-.footer-headline > p{
-  color: var(--text-gray);
-  margin: 4px 0px 20px 0px;
-}
-
-.footer-line{
-  display: block;
-  min-width: 40px;
-  height: 2px;
-  background-color: var(--text-gray);
-}
-
-.social-links{
-  display: flex;
-  gap: 8px;
-  align-items: center;
-}
-
-.social-text{
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.social-links img {
-  width: 24px;
-  height: 24px;
-  transition: all 0.2s ease-in-out;
-}
-
-.social-links img:hover{
-  transform: scale(1.1);
-}
-
-.social-links ul{
-  display: flex;
-  gap: 12px;
-  list-style-type: none;
-}
-
-@media(max-width: 800px) {
-  .footer-top{
+body {
+    font-size: 16px;
+    font-family: 'Inter', 
+        sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    padding: 16px 8px 32px 8px;
-  }
-
-  .footer-bottom{
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: space-between;
-    justify-content: center;
-    margin: 0 auto;
-  }
+    justify-content: end;
+    height: 100vh;
+    min-width: 300px;
 }
-</style>
+
+.subscription-section {
+    margin: 0 auto;
+    margin-top: auto;
+    padding: 48px 16px;
+    max-width: 1024px;
+    width: 100%;
+}
+
+/*? subscribe section */
+.subscription-wrapper {
+    margin: 0 auto;
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    min-height: 180px;
+    gap: 32px;
+    color: var(--primary);
+    background-color: var(--background);
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subscription__description {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex-grow: 1;
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.subscribe-form > input {
+    border: 1px solid var(
+        --button-border);
+    color: var(--primary);
+    outline: none;
+    min-height: 48px;
+    background-color: var(
+        --white);
+    font-size: 1.2rem;
+    flex-grow: 3;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.subscribe-form > input:focus {
+    border: 1px solid var(
+        --primary);
+}
+
+.subscribe-form > 
+input::placeholder {
+    color: var(--text-heading-gray);
+}
+
+.subscribe-form > button {
+    cursor: pointer;
+    background-color: var(
+        --primary);
+    border-radius: 8px;
+    color: var(--white);
+    font-size: 1.25rem;
+    min-height: 48px;
+    flex-grow: 1;
+    white-space: nowrap;
+    padding: 8px 12px;
+    border: 0px;
+    outline: none;
+    border: 1px solid var(
+        --button-border);
+}
+
+/*? footer containers */
+footer {
+    bottom: 0px;
+    background-color: var(
+        --primary);
+    width: 100%;
+    min-width: 300px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    width: 100%;
+    padding: 16px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 4;
+    gap: 48px 16px;
+}
+
+.footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px 8px 36px 8px;
+}
+
+.footer-columns section, 
+.footer-columns .footer-logo {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 160px;
+    max-width: 160px;
+}
+
+.footer-columns ul {
+    display: flex;
+    gap: 12px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.footer-columns ul a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.footer-columns ul a:hover{
+    text-decoration: underline;
+}
+
+.footer-columns h3 {
+    color: var(--text-heading-gray);
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 1rem;
+}
+
+.footer-logo {
+    display: flex;
+    gap: 16px;
+    flex-grow: 1;
+    max-width: 160px;
+    margin-bottom: 48px;
+}
+
+.footer-logo svg {
+    stroke: var(--text-color);
+    stroke-width: 8px;
+    width: 50px;
+    height: 50px;
+}
+
+/*? Footer bottom */
+.footer-bottom {
+    margin-top: 48px;
+    display: flex;
+    align-items: end;
+    width: 100%;
+    gap: 16px;
+    padding: 16px 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: var(--text-color);
+    border-top: 1px solid var(
+        --border);
+}
+
+.footer-bottom > small {
+    font-size: 16px;
+    margin: 0 4px;
+}
+
+.footer-headline > h2 {
+    margin: 0px;
+    color: var(--text-primary);
+}
+
+.footer-headline > p {
+    color: var(--text-color);
+    margin: 4px 0px 20px 0px;
+}
+
+.footer-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-description h3 {
+    margin-bottom: 8px;
+}
+
+/*? socials */
+
+.social-wrapper {
+    display: flex;
+    width: 100%;
+    gap: 8px;
+    padding: 8px 0px;
+    justify-content: end;
+    margin-bottom: 16px;
+    align-items: center;
+    color: var(--text-color);
+}
+
+.social-links {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+    transition: all 0.2s ease-in-out;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+.social-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    list-style-type: none;
+}
+
+/*? mobile */
+
+@media (min-width: 926px) {
+    .footer-logo {
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 800px) {
+    .footer-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 16px 8px 32px 8px;
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .social-wrapper {
+        justify-content: center;
+    }
+}
+
+
+  </style>
+
 
   <script> document.getElementById("year").innerHTML = new Date().getFullYear();</script>
   <!-- Skrip JavaScript Bootstrap 5 -->
