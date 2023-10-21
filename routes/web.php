@@ -14,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('Dashboard');
+    return view('Konten/HomePage');
 });
 
