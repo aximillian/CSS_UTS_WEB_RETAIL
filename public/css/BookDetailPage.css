@@ -186,77 +186,6 @@ a, button {
   padding-top: 15px;
 }
 
-.list-filter {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.list-filter li {
-  display: inline-block;
-}
-
-.list-filter li a {
-  color: #555;
-  display: block;
-  min-width: 30px;
-  text-align: center;
-  position: relative;
-  transition: all 0.5s ease-out 0s;
-  -webkit-transition: all 0.5s ease-out 0s;
-}
-
-.color-filter.list-filter a span {
-  display: block;
-  width: 26px;
-  height: 26px;
-  border-radius: 40px;
-}
-
-.color-filter.list-filter a span.product-color-white {
-  border: 1px solid #ddd;
-}
-
-.color-filter.list-filter li.active a::before {
-  content: "";
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  line-height: 1;
-  position: absolute;
-  right: 3px;
-  top: -3px;
-  background: #4cd964;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  border: 1px solid #fff;
-}
-
-.size-filter.list-filter a {
-  border-radius: 4px;
-  padding: 0 7px;
-  background: #fff;
-}
-
-.size-filter.list-filter li a {
-  border: 1px solid #e5e5e5;
-  color: #555;
-  height: 30px;
-  line-height: 30px;
-  min-width: 30px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.size-filter.list-filter li a:hover,
-.size-filter.list-filter li.active a {
-  color: #fff;
-  background-color: #F15412;
-  border-color: #F15412;
-}
-
 .detail-qty {
   max-width: 80px;
   padding: 9px 20px;
@@ -273,7 +202,7 @@ a, button {
 }
 
 .detail-qty > a:hover {
-  color: #F15412;
+  color: var(--secondary);
 }
 
 .detail-qty > a.qty-up {
@@ -287,10 +216,6 @@ a, button {
 .attr-detail .select-box select {
   height: 40px;
   width: 100%;
-}
-
-.attr-detail.attr-brand {
-  margin-top: 23px;
 }
 
 .attr-detail.attr-brand .select-box {
@@ -353,13 +278,13 @@ a, button {
 }
 
 .product-extra-link2 a:hover {
-  background-color: #F15412;
+  background-color: var(--primary);
   color: #fff;
 }
 
 .tab-style3 .nav-tabs .nav-item a.active {
-  border-bottom-color: #F15412;
-  color: #F15412;
+  border-bottom-color: var(--secondary);
+  color: var(--primary);
 }
 
 .tab-style3 .nav-tabs li.nav-item a {
@@ -473,40 +398,6 @@ a, button {
   font-size: 22px;
 }
 
-.product-more-infor {
-  padding: 0 0 0px 14px;
-}
-
-.product-more-infor li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0 0 10px;
-  position: relative;
-}
-
-.product-more-infor li ::before {
-  position: absolute;
-  left: -14px;
-  top: 9px;
-  content: "";
-  height: 6px;
-  width: 6px;
-  border-radius: 100%;
-  background-color: #9b9b9b;
-}
-
-.product-more-infor li span {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 165px;
-  flex: 0 0 165px;
-  display: inline-block;
-}
-
-.product-more-infor li:last-child {
-  margin: 0 0 0;
-}
-
 .progress + .progress {
   margin-top: 1rem;
 }
@@ -518,94 +409,6 @@ a, button {
   width: 45px;
 }
 
-.progress-bar {
-  background-color: #F15412;
-}
-
-.shop-filter-toogle {
-  margin-bottom: 20px;
-  display: block;
-  position: relative;
-}
-
-.shop-filter-toogle i {
-  margin-left: 5px;
-}
-
-.shop-filter-toogle i.angle-down {
-  opacity: 0;
-  visibility: hidden;
-  display: none;
-}
-
-.shop-filter-toogle.active i.angle-down {
-  opacity: 1;
-  visibility: visible;
-  display: inline-block;
-}
-
-.shop-filter-toogle.active i.angle-up {
-  opacity: 0;
-  visibility: hidden;
-  display: none;
-}
-
-.shop-product-fillter-header {
-  border: 1px solid #e2e9e1;
-  border-radius: 4px;
-  margin-bottom: 50px;
-  padding: 30px;
-  -webkit-box-shadow: 20px 20px 54px rgba(0, 0, 0, 0.03);
-  box-shadow: 20px 20px 54px rgba(0, 0, 0, 0.03);
-}
-
-.shop-product-fillter-header .categor-list li {
-  font-size: 12px;
-}
-
-.shop-product-fillter-header .categor-list li + li {
-  border-top: 1px solid #f7f8f9;
-  padding-top: 5px;
-  margin-top: 5px;
-}
-
-.shop-product-fillter-header .categor-list li a {
-  font-size: 14px;
-  color: #4f5d77;
-  margin-right: 10px;
-}
-
-.shop-product-fillter-header .categor-list li a:hover {
-  color: #F15412;
-}
-
-.shop-product-fillter-header .color-filter {
-  border-bottom: 1px solid #e2e9e1;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
-}
-
-.shop-product-fillter-header .product-rate-cover + .product-rate-cover {
-  margin-top: 15px;
-}
-
-.shopping-summery tbody tr img {
-  border-radius: 0;
-  max-width: 80px;
-}
-
-.order_review {
-  border: 1px solid #e2e9e1;
-  padding: 30px;
-  border-radius: 10px;
-}
-
-.toggle_info {
-  padding: 20px;
-  background-color: #f7f8f9;
-  border-radius: 10px;
-  border: 1px solid #e2e9e1;
-}
 
 
 
