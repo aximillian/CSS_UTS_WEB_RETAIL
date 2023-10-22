@@ -147,6 +147,7 @@
                                         </ul>
                                     </div>
                                 </div>
+                                
                             </div>
 
                             {{-- detail info --}}
@@ -215,143 +216,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            
-                            <div class="row mt-60">
-                                <div class="col-12">
-                                    <h3 class="section-title style-1 mb-30">Related products</h3>
-                                </div>
-                                <div class="col-12">
-                                    <div class="row related-products">
-                                        <div class="col-lg-3 col-md-4 col-12 col-sm-6">
-                                            <div class="product-cart-wrap small hover-up">
-                                                <div class="product-img-action-wrap">
-                                                    <div class="product-img product-img-zoom">
-                                                        <a href="product-details.html" tabindex="0">
-                                                            <img class="default-img" src="img/bookDummy/1.png" alt="">
-                                                            <img class="hover-img" src="img/bookDummy/1.png" alt="">
-                                                        </a>
-                                                    </div>
-                                                    <div class="product-action-1">
-                                                        <a aria-label="Quick view" class="action-btn small hover-up" data-bs-toggle="modal" data-bs-target="#quickViewModal"><i class="fas fa-search"></i></a>
-                                                        <a aria-label="Add To Wishlist" class="action-btn small hover-up" href="wishlist.php" tabindex="0"><i class="fas fa-heart"></i></a>
-                                                        <a aria-label="Compare" class="action-btn small hover-up" href="compare.php" tabindex="0"><i class="fas fa-shuffle"></i></a>
-                                                    </div>
-                                                    <div class="product-badges product-badges-position product-badges-mrg">
-                                                        <span class="hot">Hot</span>
-                                                    </div>
-                                                </div>
-                                                <div class="product-content-wrap">
-                                                    <h2><a href="product-details.html" tabindex="0">Bahagia Itu Sederhana</a></h2>
-                                                    <div class="rating-result" title="90%">
-                                                        <span>
-                                                        </span>
-                                                    </div>
-                                                    <div class="product-price">
-                                                        <span>$15.99 </span>
-                                                        <span class="old-price">$20.99</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-4 col-12 col-sm-6">
-                                            <div class="product-cart-wrap small hover-up">
-                                                <div class="product-img-action-wrap">
-                                                    <div class="product-img product-img-zoom">
-                                                        <a href="product-details.html" tabindex="0">
-                                                            <img class="default-img" src="img/bookDummy/2.png" alt="">
-                                                            <img class="hover-img" src="img/bookDummy/2.png" alt="">
-                                                        </a>
-                                                    </div>
-                                                    <div class="product-action-1">
-                                                        <a aria-label="Quick view" class="action-btn small hover-up" data-bs-toggle="modal" data-bs-target="#quickViewModal"><i class="fas fa-search"></i></a>
-                                                        <a aria-label="Add To Wishlist" class="action-btn small hover-up" href="wishlist.php" tabindex="0"><i class="fas fa-heart"></i></a>
-                                                        <a aria-label="Compare" class="action-btn small hover-up" href="compare.php" tabindex="0"><i class="fas fa-shuffle"></i></a>
-                                                    </div>
-                                                    <div class="product-badges product-badges-position product-badges-mrg">
-                                                        <span class="sale">-12%</span>
-                                                    </div>
-                                                </div>
-                                                <div class="product-content-wrap">
-                                                    <h2><a href="product-details.html" tabindex="0">Mengenang Namanya</a></h2>
-                                                    <div class="rating-result" title="90%">
-                                                        <span>
-                                                        </span>
-                                                    </div>
-                                                    <div class="product-price">
-                                                        <span>$15.99 </span>
-                                                        <span class="old-price">$20.99</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-4 col-12 col-sm-6">
-                                            <div class="product-cart-wrap small hover-up">
-                                                <div class="product-img-action-wrap">
-                                                    <div class="product-img product-img-zoom">
-                                                        <a href="product-details.html" tabindex="0">
-                                                            <img class="default-img" src="img/bookDummy/3.png" alt="">
-                                                            <img class="hover-img" src="img/bookDummy/3.png" alt="">
-                                                        </a>
-                                                    </div>
-                                                    <div class="product-action-1">
-                                                        <a aria-label="Quick view" class="action-btn small hover-up" data-bs-toggle="modal" data-bs-target="#quickViewModal"><i class="fas fa-search"></i></a>
-                                                        <a aria-label="Add To Wishlist" class="action-btn small hover-up" href="wishlist.php" tabindex="0"><i class="fas fa-heart"></i></a>
-                                                        <a aria-label="Compare" class="action-btn small hover-up" href="compare.php" tabindex="0"><i class="fas fa-shuffle"></i></a>
-                                                    </div>
-                                                    <div class="product-badges product-badges-position product-badges-mrg">
-                                                        <span class="new">New</span>
-                                                    </div>
-                                                </div>
-                                                <div class="product-content-wrap">
-                                                    <h2><a href="product-details.html" tabindex="0">Secangkir Selembar</a></h2>
-                                                    <div class="rating-result" title="90%">
-                                                        <span>
-                                                        </span>
-                                                    </div>
-                                                    <div class="product-price">
-                                                        <span>$15.99</span>
-                                                        <span class="old-price">$20.99</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-4 col-12 col-sm-6">
-                                            <div class="product-cart-wrap small hover-up mb-0">
-                                                <div class="product-img-action-wrap">
-                                                    <div class="product-img product-img-zoom">
-                                                        <a href="product-details.html" tabindex="0">
-                                                            <img class="default-img" src="img/bookDummy/4.png" alt="">
-                                                            <img class="hover-img" src="img/bookDummy/4.png" alt="">
-                                                        </a>
-                                                    </div>
-                                                    <div class="product-action-1">
-                                                        <a aria-label="Quick view" class="action-btn small hover-up" data-bs-toggle="modal" data-bs-target="#quickViewModal"><i class="fas fa-search"></i></a>
-                                                        <a aria-label="Add To Wishlist" class="action-btn small hover-up" href="wishlist.php" tabindex="0"><i class="fas fa-heart"></i></a>
-                                                        <a aria-label="Compare" class="action-btn small hover-up" href="compare.php" tabindex="0"><i class="fas fa-shuffle"></i></a>
-                                                    </div>
-                                                    <div class="product-badges product-badges-position product-badges-mrg">
-                                                        <span class="hot">Hot</span>
-                                                    </div>
-                                                </div>
-                                                <div class="product-content-wrap">
-                                                    <h2><a href="product-details.html" tabindex="0">Arus Deras Menenangkan</a></h2>
-                                                    <div class="rating-result" title="90%">
-                                                        <span>
-                                                        </span>
-                                                    </div>
-                                                    <div class="product-price">
-                                                        <span>$15.99 </span>
-                                                        <span class="old-price">$20.99</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>                            
-                        </div>
                     </div>
                     <div class="col-lg-3 primary-sidebar sticky-sidebar">
                         <div class="widget-category mb-30">
@@ -366,6 +230,7 @@
                                 <li><a href="shop.html">Self-Help</a></li>
                             </ul>
                         </div>
+
                         <!-- Fillter By Price -->
                         <div class="sidebar-widget price_range range mb-30">
                             <div class="widget-header position-relative mb-20 pb-10">
@@ -382,6 +247,7 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div class="list-group">
                                 <div class="list-group-item mb-10 mt-10">
                                     <label class="fw-900">Release Date</label>
@@ -457,8 +323,143 @@
                                 </div>
                             </div>
                         </div>
-                        </div>                        
                     </div>
+                    
+                    <div class="row mt-60">
+                        <div class="col-12">
+                            <h3 class="section-title style-1 mb-30">Related products</h3>
+                        </div>
+                        <div class="col-12">
+                            <div class="row related-products">
+                                <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                                    <div class="product-cart-wrap small hover-up">
+                                        <div class="product-img-action-wrap">
+                                            <div class="product-img product-img-zoom">
+                                                <a href="product-details.html" tabindex="0">
+                                                    <img class="default-img" src="img/bookDummy/7.png" alt="">
+                                                    <img class="hover-img" src="img/bookDummy/7.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="product-action-1">
+                                                <a aria-label="Quick view" class="action-btn small hover-up" data-bs-toggle="modal" data-bs-target="#quickViewModal"><i class="fas fa-search"></i></a>
+                                                <a aria-label="Add To Wishlist" class="action-btn small hover-up" href="wishlist.php" tabindex="0"><i class="fas fa-heart"></i></a>
+                                                <a aria-label="Compare" class="action-btn small hover-up" href="compare.php" tabindex="0"><i class="fas fa-shuffle"></i></a>
+                                            </div>
+                                            <div class="product-badges product-badges-position product-badges-mrg">
+                                                <span class="hot">Hot</span>
+                                            </div>
+                                        </div>
+                                        <div class="product-content-wrap">
+                                            <h2><a href="product-details.html" tabindex="0">Lukisan Awan</a></h2>
+                                            <div class="rating-result" title="90%">
+                                                <span>
+                                                </span>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$20.99 </span>
+                                                <span class="old-price">$24.99</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                                    <div class="product-cart-wrap small hover-up">
+                                        <div class="product-img-action-wrap">
+                                            <div class="product-img product-img-zoom">
+                                                <a href="product-details.html" tabindex="0">
+                                                    <img class="default-img" src="img/bookDummy/8.png" alt="">
+                                                    <img class="hover-img" src="img/bookDummy/8.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="product-action-1">
+                                                <a aria-label="Quick view" class="action-btn small hover-up" data-bs-toggle="modal" data-bs-target="#quickViewModal"><i class="fas fa-search"></i></a>
+                                                <a aria-label="Add To Wishlist" class="action-btn small hover-up" href="wishlist.php" tabindex="0"><i class="fas fa-heart"></i></a>
+                                                <a aria-label="Compare" class="action-btn small hover-up" href="compare.php" tabindex="0"><i class="fas fa-shuffle"></i></a>
+                                            </div>
+                                            <div class="product-badges product-badges-position product-badges-mrg">
+                                                <span class="sale">-12%</span>
+                                            </div>
+                                        </div>
+                                        <div class="product-content-wrap">
+                                            <h2><a href="product-details.html" tabindex="0">Jejak Kamera</a></h2>
+                                            <div class="rating-result" title="90%">
+                                                <span>
+                                                </span>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$15.99 </span>
+                                                <span class="old-price">$20.99</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                                    <div class="product-cart-wrap small hover-up">
+                                        <div class="product-img-action-wrap">
+                                            <div class="product-img product-img-zoom">
+                                                <a href="product-details.html" tabindex="0">
+                                                    <img class="default-img" src="img/bookDummy/9.png" alt="">
+                                                    <img class="hover-img" src="img/bookDummy/9.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="product-action-1">
+                                                <a aria-label="Quick view" class="action-btn small hover-up" data-bs-toggle="modal" data-bs-target="#quickViewModal"><i class="fas fa-search"></i></a>
+                                                <a aria-label="Add To Wishlist" class="action-btn small hover-up" href="wishlist.php" tabindex="0"><i class="fas fa-heart"></i></a>
+                                                <a aria-label="Compare" class="action-btn small hover-up" href="compare.php" tabindex="0"><i class="fas fa-shuffle"></i></a>
+                                            </div>
+                                            <div class="product-badges product-badges-position product-badges-mrg">
+                                                <span class="new">New</span>
+                                            </div>
+                                        </div>
+                                        <div class="product-content-wrap">
+                                            <h2><a href="product-details.html" tabindex="0">Kedamaian</a></h2>
+                                            <div class="rating-result" title="90%">
+                                                <span>
+                                                </span>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$15.99 </span>
+                                                <span class="old-price">$20.99</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                                    <div class="product-cart-wrap small hover-up mb-0">
+                                        <div class="product-img-action-wrap">
+                                            <div class="product-img product-img-zoom">
+                                                <a href="product-details.html" tabindex="0">
+                                                    <img class="default-img" src="img/bookDummy/10.png" alt="">
+                                                    <img class="hover-img" src="img/bookDummy/10.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="product-action-1">
+                                                <a aria-label="Quick view" class="action-btn small hover-up" data-bs-toggle="modal" data-bs-target="#quickViewModal"><i class="fas fa-search"></i></a>
+                                                <a aria-label="Add To Wishlist" class="action-btn small hover-up" href="wishlist.php" tabindex="0"><i class="fas fa-heart"></i></a>
+                                                <a aria-label="Compare" class="action-btn small hover-up" href="compare.php" tabindex="0"><i class="fas fa-shuffle"></i></a>
+                                            </div>
+                                            <div class="product-badges product-badges-position product-badges-mrg">
+                                                <span class="hot">Hot</span>
+                                            </div>
+                                        </div>
+                                        <div class="product-content-wrap">
+                                            <h2><a href="product-details.html" tabindex="0">Perahu Tanpa Nahkoda</a></h2>
+                                            <div class="rating-result" title="90%">
+                                                <span>
+                                                </span>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>$20.99 </span>
+                                                <span class="old-price">$24.99</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                            
+                </div>
+            </div>
                 </div>
             </div>
         </section>
