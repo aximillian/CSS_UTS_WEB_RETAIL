@@ -22,7 +22,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     
     {{-- custom file link --}}
+    <link rel="stylesheet" href="{{ asset('css/header.css') }}">
     <link rel="stylesheet" href="{{ asset('css/HomePage.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/footer.css') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
 </head>
 
@@ -204,7 +206,7 @@
                         <img src="img/bookDummy/12.png" alt="">
                     </div>
                     <div class="content">
-                        <h3>Lukisan Awan</h3>
+                        <h3>Mengenang Namanya</h3>
                         <div class="price">$15.99 <span>$20.99</span></div>
                         <a href="#" class="btn">add to cart</a>
                     </div>
@@ -220,7 +222,7 @@
                         <img src="img/bookDummy/13.png" alt="">
                     </div>
                     <div class="content">
-                        <h3>Lukisan Awan</h3>
+                        <h3>Secangkir Selembar</h3>
                         <div class="price">$15.99 <span>$20.99</span></div>
                         <a href="#" class="btn">add to cart</a>
                     </div>
@@ -489,7 +491,7 @@
                         <img src="img/bookDummy/1.png" alt="">
                     </div>
                     <div class="content">
-                        <h3>New Arrivals</h3>
+                        <h3>Bahagia Itu Sederhana</h3>
                         <div class="price">$15.99 <span>$20.99</span></div>
                         <div class="stars">
                             <i class="fas fa-star"></i>
@@ -857,7 +859,7 @@
                     <img src="img/iconWeb/Kethebook.png" alt="">
                 </div>
                 <section>
-                    <h3>Our location</h3>
+                    <h3>Our Service</h3>
                     <ul>
                         <li>
                             <a href="#"> <i class="fas fa-location-dot"></i> Sumatra</a>                        </li>
@@ -879,39 +881,36 @@
                     <h3>Quick Links</h3>
                     <ul>
                         <li>
-                            <a href="#"> <i class="fas fa-arrow-right"></i> Sumatra</a>
+                            <a href="#"> <i class="fas fa-arrow-right"></i> Home</a>
                         </li>
                         <li>
-                            <a href="#"> <i class="fas fa-arrow-right"></i> Sumatra</a>
+                            <a href="#"> <i class="fas fa-arrow-right"></i> Offerse</a>
                         </li>
                         <li>
-                            <a href="#"> <i class="fas fa-arrow-right"></i> Sumatra</a>
+                            <a href="#"> <i class="fas fa-arrow-right"></i> Categories</a>
                         </li>
                         <li>
-                            <a href="#"> <i class="fas fa-arrow-right"></i> Sumatra</a>
+                            <a href="#"> <i class="fas fa-arrow-right"></i> Wishlist</a>
                         </li>
                         <li>
-                            <a href="#"> <i class="fas fa-arrow-right"></i> Sumatra</a>
+                            <a href="#"> <i class="fas fa-arrow-right"></i> Cart</a>
                         </li>
                     </ul>
                 </section>
                 <section>
-                    <h3>Company</h3>
+                    <h3>Extra Links</h3>
                     <ul>
                         <li>
-                            <a href="#"> <i class="fas fa-arrow-right"></i> Sumatra</a>
+                            <a href="#"> <i class="fas fa-arrow-right"></i> Account Info</a>
                         </li>
                         <li>
-                            <a href="#"> <i class="fas fa-arrow-right"></i> Sumatra</a>
+                            <a href="#"> <i class="fas fa-arrow-right"></i> Ordered</a>
                         </li>
                         <li>
-                            <a href="#"> <i class="fas fa-arrow-right"></i> Sumatra</a>
+                            <a href="#"> <i class="fas fa-arrow-right"></i> Privacy Policy</a>
                         </li>
                         <li>
-                            <a href="#"> <i class="fas fa-arrow-right"></i> Sumatra</a>
-                        </li>
-                        <li>
-                            <a href="#"> <i class="fas fa-arrow-right"></i> Sumatra</a>
+                            <a href="#"> <i class="fas fa-arrow-right"></i> Payment Method</a>
                         </li>
                     </ul>
                 </section>
@@ -919,7 +918,7 @@
                     <h3>Contact info</h3>
                     <ul>
                         <li>
-                            <a href="#"> <i class="fas fa-id-card"></i> 210711010</a>                        </li>
+                            <a href="#"> <i class="fas fa-id-card"></i> 210711010</a>                        
                         </li>
                         <li>
                             <a href="#"> <i class="fas fa-id-card"></i> 210711046</a>
@@ -928,7 +927,7 @@
                             <a href="#"> <i class="fas fa-id-card"></i> 210711453</a>
                         </li>
                         <li>
-                            <a href="#"> <i class="fas fa-envelope"></i> khetebook@gmail.com</a>
+                            <a href="#"> <i class="fas fa-envelope"></i> kethebook@gmail.com</a>
                         </li>
                     </ul>
                 </section>
