@@ -14,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('Konten/BookDetailPage');
+    return view('Konten/CartPage');
 });
 
